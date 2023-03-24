@@ -1,0 +1,214 @@
+.menu-lat{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.menu {
+    background-color: #1E1E2D;
+}
+
+.menu-lat .menu .escrita{
+    padding: 15px;
+}
+
+.menu-lat .menu .escrita .painel{
+    display: flex;
+}
+
+.menu-lat .menu .escrita .usuarios{
+    display: flex;
+}
+
+.menu-lat .menu .escrita .minhaconta{
+    display: flex;
+}
+
+.menu-lat .menu .escrita .seguranca{
+    display: flex;
+}
+
+.menu-lat .menu .escrita .corporativo{
+    display: flex;
+}
+
+.menu-lat .menu .escrita .esportes{
+    display: flex;
+}
+
+.menu-lat .menu .escrita .academico{
+    display: flex;
+}
+
+.menu-lat .menu .escrita .relatorios{
+    display: flex;
+}
+
+.menu-lat .menu .escrita .customizacao{
+    display: flex;
+}
+
+.menu-lat .menu .escrita .alertas{
+    display: flex;
+}
+
+.menu-lat .menu .escrita p{
+    margin-left: 10px;
+    color: white;
+}
+
+.menu-lat .menu .logo{
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.escrita div{
+   padding: 5px;
+}
+
+.header-dashboard{
+    display:flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-dashboard nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-dashboard nav .dashboard{
+    background-color: #F4F6FA;
+    color: var(--cor-azul);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-dashboard img{
+    width: 20px;
+}
+
+.menu-lat main .e-commerce{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+.menu-lat main .e-commerce .titulo{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.menu-lat main .e-commerce .secoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 5px;
+}
+
+.menu-lat main .e-commerce .secoes div{
+    padding: 15px 0px;
+    border: solid white 2px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+}
+
+.menu-lat main .e-commerce .secoes div img {
+    position: absolute;
+    top: 17px;
+    right: 10px;
+}
+
+.menu-lat main .e-commerce .secoes div .img1{
+    width: 46px;
+}
+
+.menu-lat main .e-commerce .secoes .secao1 p{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.menu-lat main .e-commerce .secoes .secao1 h4{
+    color: #2F7210;
+    font-size: 27px;
+    padding-left: 10px;
+}
+
+.menor{
+    font-size: 10px;
+}
+
+.secao1 div, .secao1 h4{
+    display: flex;
+}
+
+.secao1 div{
+    justify-self: flex-start;
+}
+
+.menu-lat main .e-commerce{
+    height: calc(100vh - 80px);
+}
+
+.menu-lat main .e-commerce .secoes .secao1 .valor{
+    margin-left: 15px;
+}
+
+.menu-lat main .e-commerce .secoes .secao2 h4{
+    margin-left: 15px;
+    font-size: 32.5px;
+}
+
+.menu-lat main .e-commerce .secoes .secao2 p{
+    font-size: 13.98px;
+    color: #B5B5C3;
+    margin-left: 15px;
+}
+
+.menu-lat main .e-commerce .secoes .secao2 .img2{
+    width: 42px;
+}
+
+.menu-lat main .e-commerce .secoes .secao3 h4{
+    margin-left: 15px;
+    font-size: 32.5px;
+}
+
+.menu-lat main .e-commerce .secoes .secao3 p{
+    font-size: 13.98px;
+    color: #B5B5C3;
+    margin-left: 15px;
+}
+
+.menu-lat main .e-commerce .secoes .secao3 .img3{
+    width: 46px;
+}
+
+.menu-lat main .e-commerce .secoes .secao4 h4{
+    margin-left: 15px;
+    font-size: 32.5px;
+}
+
+.menu-lat main .e-commerce .secoes .secao4 p{
+    font-size: 13.98px;
+    color: #B5B5C3;
+    margin-left: 15px;
+}
+
+.menu-lat main .e-commerce .secoes .secao4 .img4{
+    width: 46px;
+}
+
+.secoes .bloco:hover{
+    background: linear-gradient(180deg, rgba(92, 78, 78, 0) 0%, rgba(40, 206, 86, 0.37) 100%);
+filter: drop-shadow(10px 11px 15px rgba(76, 87, 125, 0.15));
+border-radius: 8.13px;
+}

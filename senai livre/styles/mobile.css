@@ -1,0 +1,17 @@
+@media(max-width: 990px){
+    #bemVindo{
+        display:block;
+    }
+}
+
+@media(max-width: 1077px){
+    main #form #form-formulario{
+        background-image: none;
+    }
+}
+
+@media(max-width: 540px){
+    main #beneficios #beneficios-servicos{
+        display: block;
+    }
+}
